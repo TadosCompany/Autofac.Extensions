@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Tados.Autofac.Extensions.ConfiguredModules</PackageId>
+    <Authors>Tados</Authors>
+    <Company>Tados</Company>
+    <Product>Tados.Autofac.Extensions.ConfiguredModules</Product>
+    <Description></Description>
+    <AssemblyName>ConfiguredModules</AssemblyName>
+    <RootNamespace>ConfiguredModules</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
